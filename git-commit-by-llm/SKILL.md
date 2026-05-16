@@ -10,4 +10,4 @@ When committing AI-generated changes, use the `--author` flag to attribute the w
 Template: `git commit --author="model-name <model-tag@copilot.local>" -m "commit-message"`
 Example: `git commit --author="DeepSeek V4 Pro <deepseek-v4-pro@copilot.local>" -m "feat: impl IRequestHandler"`
 
-If you cannot determine your specific model name or version, use the generic fallback: `AI Assistant <ai@copilot.local>`.
+If you cannot determine your specific model tag (like `deepseek-v4-pro`, `glm-5.1`, `grok-4.3`, `claude-sonnet-4.6` and so on), use the generic fallback: `AI Assistant <ai@copilot.local>`.

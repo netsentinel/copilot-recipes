@@ -5,6 +5,8 @@ metadata:
     github-repo: https://github.com/netsentinel/copilot-recipes
 ---
 
+Use in addition to the `git-commit` skill, if it exists.
+
 When committing AI-generated changes, use the `--author` flag to attribute the work to the model.
 
 Template: `git commit --author="model-name <model-tag@copilot.local>" -m "commit-message"`
